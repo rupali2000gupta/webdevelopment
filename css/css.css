@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(216, 216, 221);
+    color: white;
+}
+.header-items{
+    color:red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.header-items> li > a{
+    padding: 0.5em 1em 30em;
+}
+.home{
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-email{
+    font-weight: bold;
+}
+.home > img {
+    width: 50%;
+}
+.home-info{
+
+}
+.about{
+    background-color: rgb(216, 216, 221);
+}
+.about-heading{
+    text-align: center;
+    padding: 0.8em;
+}
+.breif-description{
+    padding: 0,1em,2em;
+    text-align: justify;
+}
+.skills{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.skills > li {
+    width: 10%;
+    padding: 1cm;
+    background-color: palevioletred;
+    margin: 2cm;
+    
+}
+
+
+
+.Contact{
+    width: 40%;
+    display:flex;
+}
+.Contact-items: 40%;
+
